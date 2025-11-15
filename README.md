@@ -7,14 +7,23 @@ Sovellus vahtii Helsingin Sanomien ja YLE Uutisten RSS-feedejä ja lukee uudet u
 ## Ominaisuudet
 
 ✅ Lukee Helsingin Sanomien ja YLE:n uutiset ääneen
+
 ✅ Lukee tämän päivän uutiset käynnistyksessä
+
 ✅ Vahtii RSS-feedejä ja lukee uudet uutiset automaattisesti
+
 ✅ Laadukas neuraalinen puhesynteesi (Piper TTS)
+
 ✅ Toimii kaikissa käyttöjärjestelmissä (Windows, macOS, Linux)
+
 ✅ Täysin offline - ei vaadi nettiyhteyttä toiston aikana
+
 ✅ **Automaattinen asennus** - lataa ja asentaa kaiken tarvittavan ensimmäisellä kerralla!
+
 ✅ **Kattavat automaattiset testit** - 29 testiä varmistavat että kaikki toimii
+
 ✅ **Graafinen TUI-käyttöliittymä** - helppokäyttöinen terminaali-valikkojärjestelmä
+
 ✅ **Tuplaklikkaus-yhteensopiva** - käynnistä tiedostosta ilman komentoriviä!
 
 ## 🚀 Pika-aloitus (SUOSITELTU)
