@@ -1,0 +1,9 @@
+# Uutistenlukija - Dependencies
+
+feedparser==6.0.11
+
+# Development dependencies
+pytest>=7.0.0
+
+# Huom: Windows käyttää nativia PowerShell TUI:ta, ei curses:ia
+# Linux/macOS käyttää curses:ia joka on yleensä sisäänrakennettu

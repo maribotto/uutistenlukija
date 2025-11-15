@@ -1,0 +1,17 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Uutislukija
+Comment=Lukee HS ja YLE uutiset ääneen
+Comment[fi]=Lukee Helsingin Sanomien ja YLE:n uutiset ääneen suomeksi
+
+# HUOM: Korvaa /home/kaanders/uutistenlukija omalla polullasi!
+# Löydät polun ajamalla: pwd (aja projektijuuressa)
+Exec=/home/kaanders/uutistenlukija/linux/kaynnista_helppo.sh
+Path=/home/kaanders/uutistenlukija
+
+Icon=utilities-terminal
+Terminal=true
+Categories=Utility;Audio;News;
+Keywords=news;uutiset;tts;lukija;finnish;
+StartupNotify=true

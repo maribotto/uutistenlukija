@@ -1,0 +1,93 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+.test_venv_*/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+.hypothesis/
+
+# Project specific - Runtime generated files
+read_articles.json
+*.wav
+*.mp3
+
+# Project specific - Auto-downloaded files (kaynnista.py lataa nämä automaattisesti)
+piper/
+*.onnx
+*.onnx.json
+
+# Project specific - Generated documentation/summary files
+PYTHON_COMPATIBILITY.json
+PYTHON_COMPATIBILITY_SUMMARY.txt
+DEMO_OUTPUT.txt
+INSTALL_GUIDE_SUMMARY.txt
+*_SUMMARY.txt
+*_OUTPUT.txt
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Windows
+*.exe.config
+*.bat.bak
+
+# Claude
+.claude/
+
+# Temporary files
+*.tmp
+*.log
+temp/
+tmp/
+
+# Backup files
+*.bak
+*.backup
+*~
