@@ -1,5 +1,11 @@
 # Suomalainen uutislukija (HS & YLE)
 
+![Uutistenlukija](images/uutistenlukija.jpg)
+
+[![Tests](https://github.com/maribotto/uutistenlukija/actions/workflows/tests.yml/badge.svg)](https://github.com/maribotto/uutistenlukija/actions/workflows/tests.yml)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
 Sovellus vahtii Helsingin Sanomien ja YLE Uutisten RSS-feedejä ja lukee uudet uutiset ääneen Piper TTS:llä (neuraalinen puhesyntetisaattori).
 
 **Cross-platform:** Toimii Windows, macOS ja Linux järjestelmissä! 🌍
