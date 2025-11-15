@@ -28,4 +28,4 @@ jobs:
 
     - name: Run tests
       run: |
-        python scripts/aja_testit.py -v
+        pytest tests/ -v -m "not slow" --tb=short
