@@ -5,6 +5,7 @@
 [![Tests](https://github.com/maribotto/uutistenlukija/actions/workflows/tests.yml/badge.svg)](https://github.com/maribotto/uutistenlukija/actions/workflows/tests.yml)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+[![Download ZIP](https://img.shields.io/badge/download-ZIP-green.svg)](https://github.com/maribotto/uutistenlukija/archive/refs/heads/main.zip)
 
 Sovellus vahtii Helsingin Sanomien ja YLE Uutisten RSS-feedejä ja lukee uudet uutiset ääneen Piper TTS:llä (neuraalinen puhesyntetisaattori).
 
@@ -63,11 +64,23 @@ Katso [docs/PYTHON_VERSIONS.md](docs/PYTHON_VERSIONS.md) tarkemmat tiedot.
 
 ### Kaikki käyttöjärjestelmät (Windows, macOS, Linux):
 
-```bash
-# Lataa projekti ja siirry hakemistoon
-cd uutistenlukija
+**1. Lataa projekti:**
 
-# Käynnistä graafisella valikolla (SUOSITUS):
+📦 **Helpoin tapa:** [Lataa ZIP-paketti](https://github.com/maribotto/uutistenlukija/archive/refs/heads/main.zip) ja pura se haluamaasi kansioon.
+
+*TAI käytä git:iä:*
+```bash
+git clone https://github.com/maribotto/uutistenlukija.git
+```
+
+**2. Siirry projektikansioon:**
+```bash
+cd uutistenlukija
+```
+
+**3. Käynnistä ohjelma:**
+```bash
+# Graafisella valikolla (SUOSITUS):
 python3 kaynnista_helppo.py
 
 # TAI käynnistä suoraan:
